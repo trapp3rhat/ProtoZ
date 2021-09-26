@@ -1,6 +1,9 @@
 # Protoz
 Prototype Pollution Finder tool
 
+This tool is inpired from the NahamSec 2021 talk by @Tomnomnom 
+https://www.youtube.com/watch?v=Gv1nK6Wj8qM
+
 # Dependencies
 
 1,Google Chromium
