@@ -9,26 +9,18 @@ Prototype Pollution Finder tool
 
 # How to build this tool
 
-1, download this repo
+1, go get -u github.com/trapp3rhat/ProtoZ
 
-2, run this command inside the ProtoZ folder 
- # go build -o ProtoZ
- 
-3, Place the file into the $Path directories
- 
- 
-# Protoz Help 
--j - JS which needs to be run 
+2, Then download this repository
 
-# Usage
-
-Here place your target URLs into the url file then run this below command
+3, run ./ProtoZ.sh 
+ 
+What is inside this ProtoZ.sh ? 
 
 cat urls | unfurl -u format "%s://%d%p" | awk '{print $1 "?__proto__[hacker]=1337"}' | ./ProtoZ -j 'window.hacker? "Vulnerable" : "Not Vulnerable"'
-
-or simply run 
-
-./ProtoZ.sh 
+ 
+# ProtoZ Help 
+-j - JS which needs to be run 
 
 # XSS 
 
