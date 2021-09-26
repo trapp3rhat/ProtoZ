@@ -18,10 +18,12 @@ https://www.youtube.com/watch?v=Gv1nK6Wj8qM
 2, Then download this repository
 
 3, run ./ProtoZ.sh 
+
+##*Note: Add path to the ProtoZ directory or GOPATH need to be added in the PATH*
  
 What is inside this ProtoZ.sh ? 
 
-cat urls | unfurl -u format "%s://%d%p" | awk '{print $1 "?__proto__[hacker]=1337"}' | ./ProtoZ -j 'window.hacker? "Vulnerable" : "Not Vulnerable"'
+cat urls | unfurl -u format "%s://%d%p" | awk '{print $1 "?__proto__[hacker]=1337"}' | ProtoZ -j 'window.hacker? "Vulnerable" : "Not Vulnerable"'
  
 # ProtoZ Help 
 -j - JS which needs to be run 
