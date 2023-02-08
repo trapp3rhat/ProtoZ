@@ -1,7 +1,7 @@
 # Protoz
 Prototype Pollution Finder tool
 
-This tool is inpired from the NahamSec 2021 talk by @Tomnomnom(https://www.youtube.com/channel/UCyBZ1F8ZCJVKSIJPrLINFyA)
+This tool is inspired from the NahamSec 2021 talk by @Tomnomnom(https://www.youtube.com/channel/UCyBZ1F8ZCJVKSIJPrLINFyA)
 
 https://www.youtube.com/watch?v=Gv1nK6Wj8qM
 
